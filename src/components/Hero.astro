@@ -1,0 +1,84 @@
+---
+import Blob from "../components/blob.astro";
+import Link from "../components/Link.astro";
+---
+
+<div class="hero">
+  <Link />
+  <div class="hero-intro">
+    <h1>Raiyan Ahmed</h1>
+    <span><hr /> Full Stack Dev</span>
+    <p>
+      I'm creative designer based in Pernambut and <br /> i am very passionate
+      and dedicated to my work.
+    </p>
+    <button
+      >Say hello <img src="/src/assets/send-2.svg" alt="" srcset="" /></button
+    >
+  </div>
+  <Blob />
+</div>
+
+<style>
+  .hero {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .hero-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    font-weight: 500;
+  }
+  hr {
+    width: 50px;
+    border: 0px solid white;
+    border-top: 1px solid black;
+    height: 1px;
+  }
+  p {
+    font-size: 1.05rem;
+  }
+  button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    gap: 5px;
+    font-size: medium;
+    border: none;
+  }
+
+  @media (min-width: 700px) {
+    .hero {
+      padding-top: 3rem;
+      flex-direction: row;
+    }
+    .hero-intro {
+      gap: 1.4rem;
+    }
+    Blob {
+      height: 500px;
+    }
+  }
+</style>

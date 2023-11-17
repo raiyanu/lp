@@ -1,0 +1,175 @@
+<nav>
+  <h1>Raiyan</h1>
+  <ul id="navItem">
+    <li>
+      <a href="#home">
+        <img src="src/assets/icons/home.svg" alt="no img" />
+        <p>Home</p>
+      </a>
+    </li>
+    <li>
+      <a href="#about">
+        <img src="src/assets/icons/user.svg" alt="no img" />
+        <p>About</p>
+      </a>
+    </li>
+    <li>
+      <a href="#skills">
+        <img src="src/assets/icons/skills.svg" alt="no img" />
+        <p>skills</p>
+      </a>
+    </li>
+    <li>
+      <a href="#services">
+        <img src="src/assets/icons/suitcase.svg" alt="no img" />
+        <p>Services</p>
+      </a>
+    </li>
+    <li>
+      <a href="#portofolio">
+        <img src="src/assets/icons/image.svg" alt="no img" />
+        <p>Portofolio</p>
+      </a>
+    </li>
+    <li>
+      <a href="#contact">
+        <img src="src/assets/icons/envelope.svg" alt="no img" />
+        <p>Contact</p>
+      </a>
+      <img
+        class="close"
+        id="closeButton"
+        src="src/assets/icons/close.svg"
+        alt=""
+      />
+    </li>
+  </ul>
+  <img id="menu" src="src/assets/icons/menu.svg" alt="" />
+</nav>
+
+<style>
+  h1 {
+    font-size: 20px;
+  }
+  nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.178);
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+  }
+  ul {
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  ul li {
+    margin-top: 15px;
+  }
+  .close {
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #menu {
+    height: 20px;
+    cursor: pointer;
+  }
+  li a img {
+    height: 30px;
+  }
+  .viewNavItem {
+    bottom: 0;
+  }
+  @media (min-width: 700px) {
+    nav {
+      position: static;
+    }
+    nav ul li img {
+      display: none;
+    }
+    ul {
+      display: flex;
+      position: static;
+      width: auto;
+      gap: 20px;
+    }
+    #menu {
+      display: none;
+    }
+    ul li {
+      margin-top: 0px;
+    }
+  }
+  @media (max-width: 700px) {
+    ul {
+      transition: 0.5s;
+      bottom: -100%;
+      left: 0;
+      right: 0;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 1rem;
+      border-radius: 15px 15px 0 0;
+      padding: 10px;
+      padding-top: 30px;
+      padding-bottom: 65px;
+      background-color: white;
+    }
+    nav {
+      padding: 10px 30px;
+    }
+    .menu {
+      display: block;
+    }
+    .close {
+      display: block;
+    }
+  }
+</style>
+
+<script>
+  const menuButton = document.getElementById("menu");
+  const navItem = document.getElementById("navItem");
+  const closeButton = document.getElementById("closeButton");
+
+  menuButton.addEventListener("click", toggle_nav);
+  closeButton.addEventListener("click", toggle_nav);
+  // {menuButton, closeButton}.addEventListener("click", toggle_nav)
+  function toggle_nav() {
+    console.log("working...");
+    // Toggle the visibility of the navigation menu
+    navItem.classList.toggle("viewNavItem");
+  }
+</script>
