@@ -65,12 +65,13 @@ import IntroCard from "./elements/Intro-Card.astro";
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    max-width: 450px;
   }
   @media (min-width: 700px) {
     .intro {
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-direction: row;
+      width:100%;
     }
     p {
       text-align: start;
