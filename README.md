@@ -5,8 +5,8 @@
 
 access this site at 
 [from github page](https://rayforever.me/light-portofolio/)
-
 [from netlify](https://light-portofolio.netlify.app)
+
 made with Astro and love <3
 
 
