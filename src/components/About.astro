@@ -1,38 +1,84 @@
 ---
 import IntroCard from "./elements/Intro-Card.astro";
 ---
+
 <section class="center">
   <h1>About me</h1>
-<span>My introduction</span>
-<div class="intro center">
-  <img src="" alt="">
-  <IntroCard/>
-  <p>Frontend developer, i create web pages with UI / UX user interface, i have years of experience and many client are happy with the projects carried out.</p>
-</div>
+  <span>My introduction</span>
+  <div class="intro center">
+    <img class="myimg" src="" alt="" />
+    <div class="intro-detail">
+      <IntroCard />
+      <p>
+        Frontend developer, i create web pages with UI / UX user interface, i
+        have years of experience and many client are happy with the projects
+        carried out.
+      </p>
+      <button
+        >Download CV<img src="assets/send-2.svg" alt="" srcset="" /></button
+      >
+    </div>
+  </div>
 </section>
 
 <style>
-  section{
-    margin-top:40px;
+  button {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    gap: 5px;
+    font-size: medium;
+    border: none;
   }
-  .center{
-    display: flex;    
+  section {
+    margin-top: 40px;
+  }
+  .center {
+    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  img{
+  .myimg {
     display: block;
     height: 350px;
     background: black;
     width: 300px;
     border-radius: 20px;
-    margin-bottom:30px;
-    margin-top:40px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    flex-shrink: 0;
   }
-  p{
-    margin-top:20px;
+
+  p {
+    margin-top: 20px;
     text-align: center;
-    font-size:14px;
+    font-size: 14px;
+  }
+  .intro-detail {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  @media (min-width: 700px) {
+    .intro {
+      flex-direction: row;
+      gap: 30px;
+    }
+    p {
+      text-align: start;
+    }
+    .intro-detail{
+      align-items: flex-start;
+      height:350px;
+      justify-content: space-between;
+    }
   }
 </style>
