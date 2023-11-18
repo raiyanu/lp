@@ -1,9 +1,38 @@
 ---
 import IntroCard from "./elements/Intro-Card.astro";
 ---
-<h1>About me</h1>
+<section class="center">
+  <h1>About me</h1>
 <span>My introduction</span>
-<div class="intro">
-  <img src="assets/myimg.jpg" alt="my pic">
+<div class="intro center">
+  <img src="" alt="">
   <IntroCard/>
+  <p>Frontend developer, i create web pages with UI / UX user interface, i have years of experience and many client are happy with the projects carried out.</p>
 </div>
+</section>
+
+<style>
+  section{
+    margin-top:40px;
+  }
+  .center{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  img{
+    display: block;
+    height: 350px;
+    background: black;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom:30px;
+    margin-top:40px;
+  }
+  p{
+    margin-top:20px;
+    text-align: center;
+    font-size:14px;
+  }
+</style>
