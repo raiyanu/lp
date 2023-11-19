@@ -1,13 +1,15 @@
-# A Light Portofolio
+<div align="center">
+<h1>A Light Portofolio</h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8d892b15-be38-4d71-b352-a5be87b3d662/deploy-status)](https://app.netlify.com/sites/light-portofolio/deploys)
 [![Github Pages](https://github.com/RaiyanAhmed-RK/light-portofolio/actions/workflows/astro.yml/badge.svg)](https://github.com/RaiyanAhmed-RK/light-portofolio/actions/workflows/astro.yml)
+</div>
 
-access this site at 
-[from github page](https://rayforever.me/light-portofolio/)
-[from netlify](https://light-portofolio.netlify.app)
+## Preview <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ deployed on github page](https://rayforever.me/light-portofolio/) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ deployed on netlify](https://light-portofolio.netlify.app)
 
-made with Astro and love <3
+**made with Astro and love ❤**
 
 
 ## 🧞 Commands
