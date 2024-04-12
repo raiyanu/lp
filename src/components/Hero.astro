@@ -12,7 +12,9 @@ import Link from "../components/Link.astro";
       I am a creative designer based in Pernambut, <br /> specializing in Front-end
       dev, <br /> and I am very passionate and dedicated to my work.
     </p>
-    <button>Say hello <img src="assets/send-2.svg" alt="" srcset="" /></button>
+    <a href="./resume.pdf" target="_blank"
+      >Say hello <img src="assets/send-2.svg" alt="" srcset="" /></a
+    >
   </div>
   <Blob />
 </div>
@@ -52,7 +54,7 @@ import Link from "../components/Link.astro";
   p {
     font-size: 1.05rem;
   }
-  button {
+  a {
     cursor: pointer;
     margin-top: 20px;
     display: flex;
@@ -66,6 +68,7 @@ import Link from "../components/Link.astro";
     gap: 5px;
     font-size: medium;
     border: none;
+    text-decoration: none;
   }
 
   @media (min-width: 700px) {
