@@ -1,9 +1,3 @@
----
-import { fetchData } from "../module/FetchMyData";
-const dataJson = await fetchData();
-const data = await JSON.stringify(dataJson);
----
-
 <section>
   <h1 id="skills">Skills</h1>
   <span>My technical level</span>
@@ -149,34 +143,6 @@ const data = await JSON.stringify(dataJson);
         </li>
       </ul>
     </div>
-  </div>
-  <div class="sec">
-    <script type="module">
-      (async () => {
-        try {
-          const response = await fetch("/data/skills.json");
-          const skillsData = await response.json();
-          const technicalSkills = skillsData.technical_skills;
-
-          const skillsContainer = document.getElementById("skills-container");
-          skillsContainer.innerHTML = Object.keys(technicalSkills)
-            .map((skillCategory) => {
-              const skillsList = technicalSkills[skillCategory]
-                .map((skill) => `<li>${skill}</li>`)
-                .join("");
-              return `
-            <div key="${skillCategory}">
-              <h3>${skillCategory.replace(/_/g, " ")}</h3>
-              <ul>${skillsList}</ul>
-            </div>
-          `;
-            })
-            .join("");
-        } catch (error) {
-          console.error("Error fetching JSON:", error);
-        }
-      })();
-    </script>
   </div>
 </section>
 

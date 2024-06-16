@@ -1,0 +1,164 @@
+{
+  "name": "Raiyan Ahmed C M",
+  "contact": {
+    "phone": "+91 73396 77034",
+    "email": "raiyan.c.me@gmail.com",
+    "linkedin": "https://linkedin.com/in/c-raiyan",
+    "github": "https://github.com/raiyanu",
+    "location": "Pernambut-635810"
+  },
+  "bio": "I am a creative designer based in Pernambut, specializing in Front-end dev, and I am very passionate and dedicated to my work.",
+  "education": [
+    {
+      "degree": "Full Stack Developer",
+      "start_date": "Oct 2023",
+      "end_date": "Present",
+      "institution": "Aspira Systems",
+      "location": "Ambur, Tirupathur Dist",
+      "description": "Engaged in hands-on learning and professional assessments in full stack web development at Aspira Systems. Developing web sites to provide seamless access to information, utilizing a comprehensive skillset encompassing programming languages, design principles, and problem-solving."
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "start_date": "June 2021",
+      "end_date": "May 2024",
+      "institution": "Mazharul Uloom College",
+      "location": "Ambur, Tirupathur Dist",
+      "description": "Completed a Bachelor of Science in Computer Science, gaining a strong foundation in software development, algorithms, and data structures. Engaged in hands-on projects that enhanced problem-solving skills and technical proficiency."
+    },
+    {
+      "degree": "HSC in Mathematics, Physics, Chemistry & Computer Science",
+      "start_date": "June 2019",
+      "end_date": "April 2021",
+      "institution": "Islamiah Higher Secondary School",
+      "location": "Pernambut, Vellore Dist",
+      "description": "Completed Higher Secondary School with a focus on Mathematics, Physics, Chemistry, and Computer Science (MPCCS), building a solid foundation in analytical and technical subjects. Developed essential skills that prepared me for advanced studies in Computer Science."
+    }
+  ],
+  "experience": [
+    {
+      "title": "Pharmacy Assistant",
+      "company": "Pradhan Mantri Bharatiya Jan Aushadhi Pharmacy Kendra",
+      "start_date": "March 2020",
+      "end_date": "June 2021",
+      "location": "Pernambut, Vellore Dist",
+      "description": "Managed day-to-day operations of the pharmacy independently, ensuring smooth functioning and customer satisfaction. Handled inventory management, including stock ordering, organization, and rotation, optimizing product availability and reducing wastage. Provided excellent customer service, addressing inquiries, processing transactions, and offering guidance on over-the-counter medications and health products."
+    }
+  ],
+  "projects": [
+    {
+      "name": "ChadGym",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "start_date": "Jan 2024",
+      "end_date": "Feb 2024",
+      "links": {
+        "github": "https://github.com/raiyanu/chad-gym",
+        "live": "https://raiyanu.github.io/chad-gym"
+      },
+      "description": "Developed a comprehensive front-end using clean, semantic HTML and CSS, ensuring a visually appealing and cohesive user interface. Designed a functional user interface for a chatbot, ensuring smooth user interaction despite the absence of artificial intelligence. Implemented responsive design techniques to guarantee optimal performance and accessibility across various devices and screen sizes. Integrated JavaScript to enhance interactivity, including features such as form validations and dynamic content updates, significantly improving user engagement and usability."
+    },
+    {
+      "name": "Foodie-Site",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "start_date": "Feb 2024",
+      "end_date": "Present",
+      "links": {
+        "github": "https://github.com/raiyanu/foodie-site",
+        "live": "https://raiyanu.github.io/foodie-site"
+      },
+      "description": "Built a user-friendly website for customers to effortlessly browse menus, featuring beautifully designed food details and offerings. A responsive web application utilizing JavaScript, HTML, and CSS, with a keen focus on performance optimization and user experience enhancement. Implemented dynamic data loading from a local JSON file, enhancing the application’s flexibility and scalability while reducing reliance on external data sources. Resolved technical challenges, including error flows during the initialization of Masonry objects, ensuring smooth functionality and optimal performance across various browsers and devices."
+    }
+  ],
+  "skills": [
+    "Continuous Learning",
+    "Problem Solving",
+    "Research",
+    "Communication",
+    "Creativity",
+    "Critical Thinking",
+    "Leadership",
+    "Multitasking",
+    "Teamwork",
+    "Automation",
+    "Digital Literacy",
+    "Designing",
+    "Experimentation",
+    "Innovation",
+    "Social Media Management",
+    "Technology Enthusiast",
+    "Adaptability",
+    "Typing",
+    "Collaborative"
+  ],
+  "languages": ["Urdu", "English", "Tamil", "Hindi"],
+  "technical_skills": {
+    "programming_languages": [
+      "HTML/CSS",
+      "JavaScript",
+      "JSX",
+      "NodeJS",
+      "Python",
+      "SQL (MySQL)"
+    ],
+    "frameworks": ["React", "Axios APIs", "Tkinter"],
+    "developer_tools": [
+      "MongoDB",
+      "Pocketbase",
+      "Git",
+      "GitHub",
+      "Visual Studio Code",
+      "Eclipse"
+    ],
+    "software": ["Figma", "Notion", "MS Office", "Linux", "Excalidraw"],
+    "libraries": [
+      "Bootstrap",
+      "nextUI",
+      "React-Router-v6",
+      "Mongoose",
+      "TailwindCSS"
+    ]
+  },
+  "certifications_and_achievements": [
+    {
+      "name": "Web Development Boot camp",
+      "awarded_by": "TIET, Non-profit organization in Pernambut, Tamil Nadu",
+      "date_awarded": "June 20, 2021",
+      "skills_covered": ["HTML", "CSS", "JavaScript", "Materialize"]
+    },
+    {
+      "name": "Tailwind CSS 3 Essential Training",
+      "awarded_by": "Ray Villalobos, LinkedIn Learning",
+      "date_awarded": "April 29, 2024",
+      "skills_covered": ["Tailwind CSS"]
+    },
+    {
+      "name": "MongoDB Essential Training",
+      "awarded_by": "Naomi Pentrel, Developer Content Professional, LinkedIn Learning",
+      "date_awarded": "April 24, 2024",
+      "skills_covered": ["MongoDB"]
+    },
+    {
+      "name": "Express Essentials: Build Powerful Web Apps with Node.js",
+      "awarded_by": "Jamie Pittman, LinkedIn Learning",
+      "date_awarded": "Feb 16, 2024",
+      "skills_covered": ["Express.js"]
+    },
+    {
+      "name": "Postman Essential Training",
+      "awarded_by": "Kristin Jackvony, LinkedIn Learning",
+      "date_awarded": "Feb 05, 2024",
+      "skills_covered": ["Test Automation", "API Testing", "Postman API"]
+    },
+    {
+      "name": "Advanced Node.js",
+      "awarded_by": "Alex Banks, LinkedIn Learning",
+      "date_awarded": "Feb 06, 2024",
+      "skills_covered": ["Node.js"]
+    },
+    {
+      "name": "JavaScript Essential Training",
+      "awarded_by": "Morten Rand-Hendriksen, LinkedIn Learning",
+      "date_awarded": "April 15, 2024",
+      "skills_covered": ["JavaScript"]
+    }
+  ]
+}

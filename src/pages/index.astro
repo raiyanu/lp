@@ -4,13 +4,19 @@ import Navbar from "../components/Navbar.astro";
 import Hero from "../components/Hero.astro";
 import About from "../components/About.astro";
 import Skills from "../components/Skills.astro";
+import { fetchData } from "../module/FetchMyData.js";
+const data = await fetchData();
 ---
 
 <Layout title="Portofolio | Home">
   <div class="main-container">
     <Navbar />
-    <Hero />
-    <p style="text-align: center; color:rgba(0, 0, 0, 0.666); margin-top: .5cm;" > Under development , you may see some error please dont mind em</p>
+    <Hero name={data.name} />
+    <p
+      style="text-align: center; color:rgba(0, 0, 0, 0.666); margin-top: .5cm;"
+    >
+      Under development, you may see some error <br /> please dont mind em
+    </p>
     <About />
     <Skills />
     <hr />
